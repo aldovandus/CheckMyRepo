@@ -40,7 +40,7 @@ const Buttons = () => {
       const user = store.getState().RepositoryReducer.user;
       const repoName = store.getState().RepositoryReducer.repoName;
       const {data} = await axios.post(
-        'https://pushmore.io/webhook/i4XfC2Yoq54N5P4PNuXbZVW4',
+        'https://pushmore.io/webhook/d3Gm4aEPCuhAUjfbECLLdW41',
         {
           repoUrl: `https://github.com/${user}/${repoName}`,
           sender: user,
